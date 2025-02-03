@@ -20,5 +20,4 @@ jobs:
     - name: make check
       run: make check
     - name: make distcheck
-      run: make add.c
-           make subtract.c
+      run: make distcheck
